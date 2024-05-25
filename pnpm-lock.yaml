@@ -11,6 +11,9 @@ importers:
       axios:
         specifier: ^1.6.8
         version: 1.6.8
+      nodejs:
+        specifier: ^0.0.0
+        version: 0.0.0
       vue:
         specifier: ^3.4.21
         version: 3.4.25(typescript@5.4.5)
@@ -1301,6 +1304,9 @@ packages:
 
   node-releases@2.0.14:
     resolution: {integrity: sha512-y10wOWt8yZpqXmOgRo77WaHEmhYQYGNA6y421PKsKYWEK8aW+cqAphborZDhqfyKrbZEN92CN1X2KbafY2s7Yw==}
+
+  nodejs@0.0.0:
+    resolution: {integrity: sha512-1V+0HwaB/dhxzidEFc4uJ3k52gLI4B6YBZgJIofjwYCSAkD6CI0me6TDBT2QM2nbGWNxCHcq9/wVynzQYZOhUg==}
 
   normalize-path@3.0.0:
     resolution: {integrity: sha512-6eZs5Ls3WtCisHWp9S2GUy8dqkpGi4BVSz3GaqiE6ezub0512ESztXUwUB6C6IKbQkY2Pnb/mD4WYojCRwcwLA==}
@@ -2961,6 +2967,8 @@ snapshots:
   natural-compare@1.4.0: {}
 
   node-releases@2.0.14: {}
+
+  nodejs@0.0.0: {}
 
   normalize-path@3.0.0: {}
 

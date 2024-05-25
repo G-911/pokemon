@@ -59,14 +59,14 @@ mixPokemonArray()
 
 <template>
   <div class="m-12">
+
     <PokemonPicture :show-pokemon="showPokemon" v-if="pokemon" :pokemon-id="pokemon.id" />
     <div class="flex items-center flex-col text-4xl font-bold mt-12">
       <p> {{ streack }} </p>
       <p v-if="streack == 10">Las llevas loca</p>
-
     </div>
 
-    <PokemonOptions @selection-pokemon="checkAnswer" :pokemons="pokemonArr" />
+    <PokemonOptions :pokemon1="pokemon" :show-pokemon="showPokemon" :show-answere="showAnswer" @selection-pokemon="checkAnswer" :pokemons="pokemonArr" />
   </div>
   <div v-if="showAnswer" class="flex flex-col text-center space-y-6">
       <p class="text-2xl font-bold">{{ message }}</p>
