@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "pokemon",
+=======
+  "name": " pokemon",
+>>>>>>> f57388c50c19727adc6e3e1c0899e1e4c45af41c
   "version": "0.0.0",
   "private": true,
   "type": "module",
@@ -14,7 +18,10 @@
   },
   "dependencies": {
     "axios": "^1.6.8",
+<<<<<<< HEAD
     "nodejs": "^0.0.0",
+=======
+>>>>>>> f57388c50c19727adc6e3e1c0899e1e4c45af41c
     "vue": "^3.4.21"
   },
   "devDependencies": {
@@ -22,11 +29,17 @@
     "@tsconfig/node20": "^20.1.4",
     "@types/node": "^20.12.5",
     "@vitejs/plugin-vue": "^5.0.4",
+<<<<<<< HEAD
     "@vitejs/plugin-vue-jsx": "^3.1.0",
     "@vue/eslint-config-prettier": "^9.0.0",
     "@vue/eslint-config-typescript": "^13.0.0",
     "@vue/tsconfig": "^0.5.1",
     "au": "2.0.0-beta.14",
+=======
+    "@vue/eslint-config-prettier": "^9.0.0",
+    "@vue/eslint-config-typescript": "^13.0.0",
+    "@vue/tsconfig": "^0.5.1",
+>>>>>>> f57388c50c19727adc6e3e1c0899e1e4c45af41c
     "autoprefixer": "^10.4.19",
     "eslint": "^8.57.0",
     "eslint-plugin-vue": "^9.23.0",
